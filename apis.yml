@@ -1,7 +1,18 @@
 aid: opto
 name: Opto
-description: Opto is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Opto (Opto Investments) is an end-to-end private markets investment platform
+  built for wealth managers - RIAs, family offices, and private banks. The
+  platform helps advisors build, fundraise for, and manage private investment
+  programs across asset classes including infrastructure, private credit,
+  private equity, real estate, and venture capital. Opto covers the full
+  workflow: modeling allocations and automating operations to build a program,
+  creating client materials and streamlining subscriptions to fundraise, and
+  deploying capital with automated post-trade reporting to manage it. The
+  company connects to existing custodians, investment-management tools, and
+  reporting providers, and was surfaced as a portfolio company of 8vc. No
+  public developer API or documentation is published at this time; access is
+  through the advisor application and partner program.
 url: https://raw.githubusercontent.com/api-evangelist/opto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,30 @@ x-backed-by:
 - 8vc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.optoinvest.com/hubfs/Engineering%20the%20future.jpg
 tags:
 - Company
+- Private Markets
+- Wealth Management
+- Investments
+- Fintech
+- Alternative Investments
+- Private Equity
+- RIA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://optoinvest.com
+  url: https://www.optoinvest.com/
+- type: Support
+  url: https://help.optoinvest.com/en/
+- type: Blog
+  url: https://thesis.optoinvest.com/
+- type: StatusPage
+  url: https://status.optoinvest.com
+- type: TermsOfService
+  url: https://www.optoinvest.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.optoinvest.com/privacy-policy
+- type: Login
+  url: https://app.optoinvest.com/
+- type: DomainSecurity
+  url: security/opto-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
